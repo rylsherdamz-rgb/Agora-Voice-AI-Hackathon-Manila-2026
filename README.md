@@ -1,4 +1,5 @@
 # Agora Voice AI Hackathon Manila 2026
+
 **Monday, March 16, 2026**
 
 Building Real-Time Voice AI Systems used to feel complex. Now you can prototype faster with AI-assisted development workflows and real-time voice tools.
@@ -6,48 +7,49 @@ Building Real-Time Voice AI Systems used to feel complex. Now you can prototype 
 You will use TRAE IDE to practice modern AI-assisted development workflows, and Agora technologies to build real-time, low-latency Voice AI solutions.
 
 **Event Details**
+
 - Venue: Arthaland Century Pacific Tower, 4th Ave, 30th St, Taguig
 - Format: In-person, single-day event
 - Team Size: 1 to 4 members per team
-- Registration: https://luma.com/iuxsx2ia
+- Registration: <https://luma.com/iuxsx2ia>
 
 **Prizes** (₱130,000 including cash and credits)
+
 - Grand Prize: ₱15,000 cash + ₱57.3k credits
 - 2nd Prize: ₱10,000 cash + ₱28.7k credits
 - 3rd Prize: ₱5,000 cash + ₱17.2k credits
 
 **Schedule**
+
 - 8:00 AM to 8:30 AM — Registration and Check-in
 - 8:30 AM to 9:00 AM — Opening Ceremony
 - 9:00 AM to 10:00 AM — Workshop (Intro to TRAE IDE and Agora)
 - 10:00 AM to 12:00 PM — Hackathon Begins (Build Phase 1)
 - 12:00 PM to 12:40 PM — Working Lunch Break
-- 12:45 PM to 4:00 PM — Build Phase 2 (Deep Work)
-- 4:00 PM to 4:15 PM — Working Snack Break
-- 4:15 PM to 5:30 PM — Build Phase 3 (Final Sprint)
+- 12:45 PM to 5:30 PM — Build Phase 3 (Final Sprint)
 - 5:30 PM to 6:00 PM — Submission Deadline and Dinner (submit via GitHub PR)
 - 6:00 PM to 6:40 PM — Judging Deliberation
-- 6:40 PM to 8:00 PM — Top Team Presentations (5 min pitch + 2 min Q&A)
+- 6:40 PM to 8:00 PM — Top Team Presentations (5 min pitch + 2 min Q\&A)
 
 **Before You Arrive**
+
 - Bring an internet-facing laptop for this hands-on session.
-- Register an Agora Developer account in advance: https://console.agora.io/
-
-
+- Register an Agora Developer account in advance: <https://console.agora.io/>
 
 ## 🎯 **Theme: Building Real-Time Voice AI Systems**
 
 Prototype faster with AI-assisted development workflows and real-time voice tools using TRAE IDE and Agora technologies.
 
 ### Focus Areas
+
 - Voice-to-voice AI agents
 - Multi-modal communication platforms
 - Collaborative AI assistants
 - AI-driven customer and community support
 - Smart learning and mentoring systems
 
-
 ### Recommended Technologies
+
 - Agora Conversational AI Engine (Required)
 - Agora RTC SDK (Required)
 - AWS Bedrock (Encouraged)
@@ -58,23 +60,22 @@ Prototype faster with AI-assisted development workflows and real-time voice tool
 - AWS EC2 / S3 (Encouraged)
 - AWS Lambda (Encouraged)
 
-
-
----
+***
 
 ## 🔧 **Project Requirements & Constraints**
 
 ### Required Technologies
+
 All submissions **must** integrate the following:
 
-| Technology | Description | Documentation |
-|------------|-------------|---------------|
-| **Agora RTC SDK** | Low-latency real-time audio and video communication | [Docs](https://docs.agora.io/en/interactive-live-streaming/overview/product-overview) |
-| **Agora Conversational AI Engine** | Hosted platform for building real-time voice AI agents | [Docs](https://docs.agora.io/en/conversational-ai/overview/product-overview) |
-| **TRAE IDE** | AI-assisted development environment for planning, coding, debugging, and documentation | [Docs](https://trae.ai/) |
-
+| Technology                         | Description                                                                            | Documentation                                                                         |
+| ---------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Agora RTC SDK**                  | Low-latency real-time audio and video communication                                    | [Docs](https://docs.agora.io/en/interactive-live-streaming/overview/product-overview) |
+| **Agora Conversational AI Engine** | Hosted platform for building real-time voice AI agents                                 | [Docs](https://docs.agora.io/en/conversational-ai/overview/product-overview)          |
+| **TRAE IDE**                       | AI-assisted development environment for planning, coding, debugging, and documentation | [Docs](https://trae.ai/)                                                              |
 
 ### Rules
+
 - All projects must integrate Agora technologies
 - All source code must be created during the hackathon period
 - Teams are encouraged to use TRAE IDE for development support and workflow management
@@ -82,7 +83,7 @@ All submissions **must** integrate the following:
 - Projects must follow data privacy and ethical AI guidelines
 - Teams must submit working demos and documentation
 
----
+***
 
 ## 📚 **Resources & Starter Code**
 
@@ -90,14 +91,14 @@ Get up and running quickly with these official repositories:
 
 ### Starter Repositories
 
-| Repository | Description |
-|------------|-------------|
-| [**Convo AI Starter Kit**](https://github.com/AgoraIO-Community/convo-ai-starter) | Starter template for building real-time conversational agents |
-| [**Next.js RTC Template**](https://github.com/AgoraIO-Community/nextjs-agora-rtc) | Full-stack template for Agora-powered web apps |
-| [**Voice Agent Sample**](https://github.com/AgoraIO-Community/voice-agent-sample) | Example of a voice-to-voice AI assistant using Agora |
-
+| Repository                                                                        | Description                                                   |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **[Convo AI Starter Kit](https://github.com/AgoraIO-Community/convo-ai-starter)** | Starter template for building real-time conversational agents |
+| **[Next.js RTC Template](https://github.com/AgoraIO-Community/nextjs-agora-rtc)** | Full-stack template for Agora-powered web apps                |
+| **[Voice Agent Sample](https://github.com/AgoraIO-Community/voice-agent-sample)** | Example of a voice-to-voice AI assistant using Agora          |
 
 ### Documentation
+
 - [Agora Developer Portal](https://docs.agora.io/)
 - [Agora Developer Console](https://console.agora.io/)
 - [Event Page (Luma)](https://luma.com/iuxsx2ia)
@@ -105,12 +106,11 @@ Get up and running quickly with these official repositories:
 - [Hackathon Technical Handbook](https://github.com/AgoraIO-Community/hackathon-handbook)
 - [TRAE IDE User Guide](https://trae.ai/docs)
 
-
----
+***
 
 Follow the steps below to **fork, develop, and submit** your project.
 
----
+***
 
 ## 📌 **Submission Guidelines**
 
@@ -129,17 +129,17 @@ cd Agora-Voice-AI-Hackathon-Manila-2026
 
 ### **3. Create Your Team Folder**
 
-Inside the `submissions/` directory, create a new folder using your team name.  
+Inside the `submissions/` directory, create a new folder using your team name.\
 Example:
 
 ```text
 submissions/
-  ├── team-name/
-  │   ├── README.md
-  │   ├── demo.mp4
-  │   ├── src/
-  │   ├── infra/
-  │   └── docs/
+  ├── Group A|B/
+  │   ├── team-name/
+  │       ├── Deck & Demo
+  │       ├── TRAE_Usage/
+  │       ├── Source Code/
+  │       ├── README.md
 
 ```
 
@@ -161,7 +161,7 @@ git push
 
 1. Go to your forked repo on GitHub.
 2. Click the **"New Pull Request"** button.
-3. Set the base repository to `AgoraIO-Community/Agora-Voice-AI-Hackathon-Manila-2026` and compare it with your forked branch.
+3. Set the base repository to `Devin066/Agora-Voice-AI-Hackathon-Manila-2026` and compare it with your forked branch.
 4. In the PR description, include:
    - Team Name
    - Project Name
@@ -169,7 +169,7 @@ git push
    - Any special instructions of features to focus on or to avoid because they may not be finished. (If applicable)
 5. Click **"Create Pull Request"** to submit your project.
 
----
+***
 
 ## 🏆 **Judging Criteria**
 
@@ -191,7 +191,6 @@ The evaluation process consists of two rounds.
 
 ✅ **Submission Compliance** (10%) – Evaluates adherence to the required GitHub repository format and boilerplate structure as specified in the submission guidelines.
 
-
 ### Round 2: Final Phase (Presentations)
 
 ✅ **Functionality & Demo Quality** (25%) – Code quality, completeness, polish, and reliability of the submission, including a fully functional and stable live demo with complete features.
@@ -203,21 +202,15 @@ The evaluation process consists of two rounds.
 ✅ **Sustainability & Feasibility** (10%) – Community value, enterprise applicability, real-world relevance sustainability and business viability.
 
 ✅ **Presentation & Pitch** (20%) – Clear, engaging delivery of problem, solution, and demo with strong storytelling and visuals.
-### Judging Panel
-- **Hennessy Vince Solis** – Solutions Architect, Agora
-- **Derek Zheng** – DevRel & Partnership, Agora
-
 
 📋 See the full [Judging Rubric](./hackathon-rating-rubric.md) for detailed scoring criteria and evaluation process.
 
----
+***
 
 ## ❓ **Need Help?**
 
-For any questions, reach out to [**Hennessy Solis**](mailto:hennessy.solis@agora.io) or join our Discord channel at [Agora Voice AI Hackathon Manila 2026](https://discord.gg/bmSu7CgdwQ).
-
+For any questions, reach out to **[Hennessy Solis](mailto:hennessy.solis@agora.io)** or join our Discord channel at [Agora Voice AI Hackathon Manila 2026](https://discord.gg/bmSu7CgdwQ).
 
 For urgent technical issues, include your team name and project ID in the email subject.
-
 
 **Happy hacking and good luck!** 🚀

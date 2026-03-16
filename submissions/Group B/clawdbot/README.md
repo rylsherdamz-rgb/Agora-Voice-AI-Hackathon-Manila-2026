@@ -1,44 +1,50 @@
-Multi-school (multi-tenant) demo platform for school document requests + OCR + AI assistant (Gemini optional) + voice room (Agora optional).
+# Welcome to your Expo app 👋
 
-## Getting Started
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-First, run the development server:
+## Get started
+
+1. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
 
 ```bash
-npm run dev
+npm run reset-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Demo Flow (In-Memory Backend)
+## Learn more
 
-- Go to `/`
-- Pick a school (tenant) or create one
-- Use "Demo login" to sign in as `student`, `teacher`, or `school_admin`
-- Open the tenant dashboard at `/s/[schoolId]`
-- Request documents at `/s/[schoolId]/documents`
-- Track requests at `/s/[schoolId]/requests`
-- Run OCR uploads at `/s/[schoolId]/upload`
-- Chat with the assistant at `/s/[schoolId]/assistant`
-- Admin pages:
-  - Requests: `/s/[schoolId]/admin/requests`
-  - Audit: `/s/[schoolId]/admin/audit`
+To learn more about developing your project with Expo, look at the following resources:
 
-## Environment Variables
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-- Supabase (optional; currently not used by the demo store):
-  - `NEXT_PUBLIC_SUPABASE_URL`
-  - `NEXT_PUBLIC_SUPABASE_KEY`
-- Gemini (optional, for `/api/ai/chat`):
-  - `GEMINI_API_KEY` (server-side)
-- Agora voice (optional):
-  - `NEXT_PUBLIC_AGORA_APP_ID` (client-side)
+## Join the community
 
-## Supabase Backend
+Join our community of developers creating universal apps.
 
-The current implementation uses an in-memory store for hackathon-friendly local development. The next step is adding a Supabase schema + RLS and switching the API routes to use Supabase. See `CODEX_PROMPT.md`.
-
-## Notes
-
-- This is a demo auth flow (HttpOnly cookies set by `/api/auth/login`). Don’t ship as-is.
-- The OCR validation check is a simple heuristic (looks for name/email tokens).
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
